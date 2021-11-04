@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="17px" viewBox="0 0 20 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>arrow-right</title>
+    <g id="Tienda" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Button" transform="translate(-300.000000, -21.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="arrow-right" transform="translate(300.000000, 21.000000)">
+                <polygon id="Path" points="12.265625 0.651041667 11.0677083 1.84895833 16.71875 7.5 0 7.5 0 9.16666667 16.71875 9.16666667 11.0677083 14.8177083 12.265625 16.015625 19.3489583 8.93229167 19.921875 8.33333333 19.3489583 7.734375"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

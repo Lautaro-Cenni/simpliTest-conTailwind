@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "SFDisplay-medium";
+    src: url("../fonts/FontsFree-Net-SFProDisplay-Medium.ttf");
+    font-weight: 900;
+}
+@font-face {
+    font-family: "SFDisplay-heavy";
+    src: url("../fonts/FontsFree-Net-SFProDisplay-Heavy-1.ttf");
+}
+@font-face {
+    font-family: "SFDisplay-light";
+    src: url("../fonts/FontsFree-Net-SFProDisplay-Light.ttf");
+}
+@font-face {
+    font-family: "SFDisplay-black";
+    src: url("../fonts/FontsFree-Net-SFProDisplay-Black.ttf");
+}
+@font-face {
+    font-family: "SFDisplay";
+    src: url("../fonts/SF-Pro-Display-Regular.otf");
+}
+
+.SFDisplay-medium{
+    font-family: SFDisplay-medium;
+}
+.SFDisplay-heavy{
+    font-family: SFDisplay-heavy;
+}
+.SFDisplay-light{
+    font-family: SFDisplay-light;
+}
+.SFDisplay-black{
+    font-family: SFDisplay-black;
+}
+.SFDisplay{
+    font-family: SFDisplay;
+}
