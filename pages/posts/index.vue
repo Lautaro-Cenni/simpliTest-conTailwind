@@ -8,7 +8,7 @@
                 <p class="self-center w-full">¿CUÁL VA A SER TU PRÓXIMO NISSAN?</p>
             </div>
         </div>
-        <div class="container-cards mt-12 grid justify-center justify-items-center mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 grid-flow-row ">
+        <div class="container-cards my-12 grid justify-center justify-items-center mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 grid-flow-row ">
             <Cards  v-for="post of posts" 
                 :key="post.id"
                 :id="post.id"
@@ -47,14 +47,6 @@ export default {
             loading: false
         }
     },
-    methods: {
-      start() {
-        this.loading = true
-      },
-      finish() {
-        this.loading = false
-      }
-    },
     async created(){
     
         try {
@@ -76,7 +68,7 @@ export default {
     image-rendering: 100%;
 }
 .posts{
-    position:relative;
+    position:static;
     margin-top: 100px;
     margin-bottom: 50px;
     min-height: 810px;

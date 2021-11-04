@@ -1,7 +1,7 @@
 <template>
 <div id="app">
-  <Nav />
-  <Nuxt />
+  <Nav/>
+  <Nuxt/>
   <Footer/>
 </div>
 </template>

@@ -82,7 +82,7 @@ export default {
 <style>
 
 footer {
-    position:relative;
+    position:static;
     width: 100%;
     height:585px;
 }
