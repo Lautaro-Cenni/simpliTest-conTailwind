@@ -35,7 +35,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .content{
   background-image: url("../static/Banner.jpg");
   background-repeat: no-repeat;
@@ -47,12 +47,6 @@ export default {
 }
 .contentPosts{
   min-width: 810px;
-}
-@media (max-width: 991px){
-    .content {
-        background-position-x: left;
-        background-size: cover;
-    }
 }
 .description-wrapper{
   margin-top:215px;
@@ -84,9 +78,15 @@ export default {
 @media screen and (min-width: 640px) {
   .description-button{
   width:350px;
-  background-position: 300px;
+  background-position:300px;
   padding-top:1.075rem;
+  }
 }
+@media (max-width: 991px){
+    .content {
+        background-position-x: left;
+        background-size: cover;
+    }
 }
 
 </style>

@@ -1,15 +1,15 @@
 <template>
-    <div class="nav-container w-screen">
+    <div class="nav-container w-full">
         <div :class="[show ? 'navbar-open': 'navbar-close', 'nav', 'flex', 'flex-row', 'flex-nowrap', 'gap-4']">
             <nuxt-link to="/">
-                <div class="flex-initial w-min ">
-                    <img  src="../../static/brand.svg" alt="brand">
+                <div class="flex-initial w-min">
+                    <img  src="../static/brand.svg" alt="brand">
                 </div>
             </nuxt-link>
             <div class="flex-auto flex justify-between">
                 <ul class="hidden md:grid py-9 grid-flow-col ">
                     <li class="col-auto text-left">
-                        <nuxt-link class="no-underline p-3" to="posts">
+                        <nuxt-link class="no-underline p-3" to="/posts">
                             <span class="SFDisplay font-semibold text-sm tracking-wide text-gray-800">VEHÍCULOS</span>
                         </nuxt-link>
                     </li>
@@ -110,7 +110,6 @@
 <script>
 
 export default {
-    name: 'Nav',
     data(){
         return{
         // variable para menu desplegable en version movil
@@ -134,7 +133,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .nav-container{
     position:absolute;
     top:0;
@@ -148,7 +147,7 @@ export default {
     max-height:100px;
 }
 .search{
-    background-image: url("../../static/search.svg");
+    background-image: url("../static/search.svg");
     background-repeat: no-repeat;
     background-position: 15px;
     border: none;
